@@ -4,7 +4,7 @@
   body {
     margin: 0;
     min-height: 200vh;
-    font-size: 0;
+    font-size: 16px;
     font-family: Helvetica, Verdana, sans-serif;
   }
   nav {
@@ -19,8 +19,8 @@
     backdrop-filter: blur(8px) brightness(1.2);
     -webkit-backdrop-filter: blur(8px) brightness(1.2);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 16px;
+    color: #20310ac3;
+    font-size: 18px;
     &.mask {
       top: 150px;
       mask-image: linear-gradient(black 70%, transparent);
@@ -42,7 +42,7 @@
     }
   
     @media (min-width: 640px) {
-      padding: 16px 50px 30px 50px;
+      padding: 30px 50px 28px 50px;
     }
   }
   nav.is-hidden {
@@ -66,9 +66,4 @@
     li {
       margin-left: 20px;
     }
-  }
-  img {
-    width: 100%;
-    min-height: 200vh;
-    object-fit: fill;
   }

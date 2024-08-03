@@ -5,9 +5,8 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <NavLink to="/">Logo</NavLink>
+        <NavLink to="/">aeterna memorias.</NavLink>
       </div>
-      <button className={styles.search} />
       <ul className={styles.list}>
         <li>
           <NavLink to="/" className={({ isActive }) => (isActive ? 'font-bold' : undefined)}>
@@ -25,7 +24,6 @@ const Nav = () => {
           </NavLink>
         </li>
       </ul>
-      <button className={styles.menu} />
     </nav>
   );
 };
